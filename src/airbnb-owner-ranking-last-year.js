@@ -21,8 +21,8 @@
       if (places[hostId]) {
         places[hostId].hostName = element.hostName;
         places[hostId].hostLocation = element.hostLocation;
-        places[hostId].plazas += beds;
-        places[hostId].establecimientos += 1;
+        places[hostId].places += beds;
+        places[hostId].stablishments += 1;
 
         if (!places[hostId].neighburhood.includes(element.neighburhood)) {
           places[hostId].neighburhood.push(element.neighburhood);

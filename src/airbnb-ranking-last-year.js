@@ -21,8 +21,8 @@
         places[neighburhood].stablishments += 1;
       } else {
         places[neighburhood] = {
-          plazas: beds,
-          establecimientos: 1
+          places: beds,
+          stablishments: 1
         };
       }
     });
